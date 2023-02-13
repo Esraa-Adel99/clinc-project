@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Clinic</title>
+</head>
+
+<body style="background-color: #f2f5f5;">
+
+  <nav class="navbar navbar-expand-lg  navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand text-info" href="#"><b>HEALTH</b>CARE</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" onclick="log()">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Sign Out</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Book</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info" type="submit"><b>Search</b></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="doctors3.jpg" alt="Los Angeles" style="width:100%; height:500px;">
+        </div>
+
+        <div class="item">
+          <img src="doctors4.jpg" alt="doctor" style="width:100%; height:500px;">
+        </div>
+
+        <div class="item">
+          <img src="doctors.jpg" alt="doctor" style="width:100%; height:500px;">
+        </div>
+
+        <div class="item">
+          <img src="doctors2.jpg" alt="doctor" style="width:100%; height:500px;">
+        </div>
+
+        <div class="item">
+          <img src="doctors5.jpg" alt="doctor" style="width:100%; height:500px;">
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-body text-dark bg-info">
+          <div class="card-header text-center"><img src="icon.jpg"></div>
+          <h2 class="card-title text-center">Cardiology</h2>
+          <p class="card-text">Aenean facilisis sodales est neciMorbi vitapurus on convallis commodo velante.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body text-dark bg-info">
+          <div class="card-header text-center"><img src="icon2.jpg"></div>
+          <h2 class="card-title text-center">Cardiology</h2>
+          <p class="card-text">Aenean facilisis sodales est neciMorbi vitapurus on convallis commodo velante.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body text-dark bg-info">
+          <div class="card-header text-center"><img src="icon3.jpg"></div>
+          <h2 class="card-title text-center">Cardiology</h2>
+          <p class="card-text">Aenean facilisis sodales est neciMorbi vitapurus on convallis commodo velante.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="alert text-center" role="alert">
+    <h1><b>HEALTHCARE <a href="#" class="alert-link text-info">Plans</a> & <a href="#"
+          class="alert-link text-info">Pricing</a></b></h1>
+    <h6 class="text-muted">facere unde deleniti rem qui ut obcaecati perferendis</h6>
+  </div>
+
+
+  
+
+
+  <div class="container">
+    <div class="card-columns">
+      <div class="row">
+        <div class="card-deck">
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+            <img class="card-img-top rounded-circle bg-info" src="d2.jpg" alt="Card image cap" width="200" height="300">
+            <div class="card-body">
+              <h5 class="card-title text-info">Dr-Mohammed Sayed</h5>
+              <p class="card-text">Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis.</p>
+              <input class="btn btn-info" type="submit" value="Appointment">
+            </div>
+            <div class="card-footer">
+              <div class="text-center">
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a>
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+            <img class="card-img-top rounded-circle bg-info" src="d2.jpg" alt="Card image cap" width="200" height="300">
+            <div class="card-body">
+              <h5 class="card-title text-info">Dr-Mohammed Sayed</h5>
+              <p class="card-text">Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis.</p>
+              <input class="btn btn-info" type="submit" value="Appointment">
+            </div>
+            <div class="card-footer">
+              <div class="text-center">
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a>
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-md-6 col-sm-12">
+            <img class="card-img-top rounded-circle bg-info" src="d2.jpg" alt="Card image cap" width="200" height="300">
+            <div class="card-body">
+              <h5 class="card-title text-info">Dr-Mohammed Sayed</h5>
+              <p class="card-text">Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis.</p>
+              <input class="btn btn-info" type="submit" value="Appointment">
+            </div>
+            <div class="card-footer">
+              <div class="text-center">
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a>
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+          <div class="card-deck">
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <img class="card-img-top rounded-circle bg-info" src="d2.jpg" alt="Card image cap" width="200" height="300">
+              <div class="card-body">
+                <h5 class="card-title text-info">Dr-Mohammed Sayed</h5>
+              <p class="card-text">Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis.</p>
+              <input class="btn btn-info" type="submit" value="Appointment">
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a>
+                    <i class="fa-solid fa-phone"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <img class="card-img-top rounded-circle bg-info"  src="d2.jpg" alt="Card image cap" width="200" height="300">
+              <div class="card-body">
+              <h5 class="card-title text-info">Dr-Mohammed Sayed</h5>
+              <p class="card-text">Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis.</p>
+              <input class="btn btn-info" type="submit" value="Appointment">
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a>
+                    <i class="fa-solid fa-phone"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card col-lg-4 col-md-6 col-sm-12">
+              <img class="card-img-top rounded-circle bg-info" src="d2.jpg" alt="Card image cap" width="200" height="300">
+              <div class="card-body">
+                <h5 class="card-title text-info">Dr-Mohammed Sayed</h5>
+              <p class="card-text">Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis.</p>
+              <input class="btn btn-info" type="submit" value="Appointment">
+              </div>
+              <div class="card-footer">
+                <div class="text-center">
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a>
+                    <i class="fa-solid fa-phone"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="alert text-center" role="alert">
+              <h1><b>Key Features Of <a href="#" class="alert-link text-info"><b>HEALTH</b>CARE</a></b></h1>
+              <h6 class="text-muted">facere unde deleniti rem qui ut obcaecati perferendis</h6>
+            </div>
+
+
+
+            <div class="container">
+              <div class="card-columns">
+                <div class="row">
+                  <div class="card col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-header text-center"><img src="c.jpg"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title that wraps to a new line</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                  <div class="card col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-header text-center"><img src="c2.jpg"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title that wraps to a new line</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                  <div class="card col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-header text-center"><img src="c3.jpg"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title that wraps to a new line</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="card col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-header text-center"><img src="c4.jpg"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title that wraps to a new line</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                  <div class="card col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-header text-center"><img src="c3.jpg"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title that wraps to a new line</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                  <div class="card col-lg-4 col-md-6 col-sm-12">
+                    <div class="card-header text-center"><img src="c.jpg"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title that wraps to a new line</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+  <br><br><br>
+  <div class="alert text-center" role="alert" >
+    <h1><b class="alert-link text-info" >We Are Happy To Help You</b></h1>
+  </div>
+ 
+  <br><br>
+  <div class="container" style="background-color: #f2f5f5;">
+    <div class="row">
+      <div class="col align-self-start">
+        <img src="about.jpg">
+      </div>
+
+      <div class="col align-self-center">
+        <b><h1 class="text-info">About Us</b><br>
+          We Are The Best To Take Care Of You</h1>
+        <h4>Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis commodo velante,
+        tiam ltricies lputate.Aenean facilisis sodales est neciMorbi vitapurus on Est facilisisro convallis commodo velante,
+        tiam ltricies lputate.</h4>
+        </div>
+       
+    </div>
+  </div>
+
+
+          <br><br>
+
+
+
+          <footer class="text-center text-lg-start bg-dark text-muted">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+              <div class="me-5 d-none d-lg-block">
+
+              </div>
+              <div>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+
+            </section>
+            <section class="">
+              <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      <i class="fas fa-gem me-3"></i><b>HEALTH</b>CARE
+                    </h6>
+                    <p>
+                      Here you can use rows and columns to organize your footer content. Lorem ipsum
+                      dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Products
+                    </h6>
+                    <p>
+                      <a href="#!" class="text-reset">Reservation</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Appointment</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Meeting</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Booking</a>
+                    </p>
+                  </div>
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Useful links
+                    </h6>
+                    <p>
+                      <a href="#!" class="text-reset">Reservation</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Appointment</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Meeting</a>
+                    </p>
+                    <p>
+                      <a href="#!" class="text-reset">Booking</a>
+                    </p>
+                  </div>
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                    <p>
+                      <i class="fas fa-envelope me-3"></i>
+                      info@example.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+              © 2021 Copyright:
+              <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Health Care. All Right Reserved.</a>
+            </div>
+          </footer>
+
+
+
+
+
+
+         
+
+
+
+    
+          <script src="script.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
